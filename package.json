@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node db/seeds/seed.js"
+    "start:prod": "node index.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch --runInBand",
+    "test:coverage": "jest --coverage --runInBand",
+    "seed": "node db/seeds/run-seed.js",
+    "seed:dev": "node db/seeds/run-seed.js development",
+    "seed:test": "node db/seeds/run-seed.js test"
   },
   "author": "",
   "license": "ISC",

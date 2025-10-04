@@ -1,6 +1,7 @@
 module.exports = [
     {
         "name": "Chyreen Fruit Farm",
+        "username": "chyreen_farm",
         "address": {
             "street":"Quenchwell Rd",
             "town": "Carnon Downs",
@@ -70,6 +71,7 @@ module.exports = [
     },
     {
         "name": "Hewitts Farm",
+        "username": "hewitts_farm",
         "address": {
             "street":"Court Road",
             "town": "Bromley, Chelsfield",
@@ -171,6 +173,7 @@ module.exports = [
     },
     {
         "name": "Stanhill Farm",
+        "username": "stanhill_farm",
         "address":{
             "street":"Birchwood Road",
             "town": "Wilmington",
